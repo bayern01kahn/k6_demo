@@ -17,7 +17,7 @@ import {
 let ErrorCount = new Counter("errors");
 
 export const options = {
-  vus: 1000,
+  vus: 100,
   duration: "30s",
   thresholds: {
     errors: ["count<10"]
@@ -28,15 +28,15 @@ export const options = {
     },
     {
       durations: "9s",
-      target: 100
+      target: 50
     },
     {
       durations: "15s",
-      target: 1000
+      target: 100
     },
     {
       durations: "5s",
-      target: 100
+      target: 1
     }
   ]
 };
