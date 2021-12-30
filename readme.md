@@ -1,4 +1,7 @@
 ## Load Testing demo / 负载测试Demo
+
+![image](Architecture.png)
+
 EN:
 * Based on: K6/k6-reporter + influxDB + Grafana 
 * Code: includes smoke/spike/stress/soak testing (come from k6.io)
